@@ -1,0 +1,5 @@
+FROM maven:3.8.4-amazoncorretto-17
+run yum update -y;
+run yum install python3-pip -y
+run yum install curl -y
+run curl -fL https://install-cli.jfrog.io | sh
